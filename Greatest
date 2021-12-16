@@ -1,17 +1,16 @@
 #Program to find greatest number among 3 numbers
 
+a = int(input('Enter number1 :'))
+b = int(input('Enter number2 :'))
+c = int(input('Enter number3 :'))
 
-x = int(input('Enter num1 :'))
-y = int(input('Enter num2 :'))
-z = int(input('Enter num3 :'))
-
-if x > y:
-    if z > x :
-        print(f'{z} Greater than {x},{y}')
+if a > b:
+    if c > a :
+        print(f'{c} Greater than {a},{b}')
     else:
-        print(f'{x} Greater than {z},{y}')
+        print(f'{a} Greater than {c},{b}')
 else:
-    if z > y:
-        print(f'{z} Greater than {y},{x}')
+    if c > b:
+        print(f'{c} Greater than {b},{a}')
     else:
-        print(f'{y} Greater than {z},{x}')
+        print(f'{b} Greater than {c},{a}')
